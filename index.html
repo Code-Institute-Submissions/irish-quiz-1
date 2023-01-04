@@ -10,10 +10,12 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>How irish are you?</title>
 </head>
 <body>
-    <h1 class="heading">How irish are you?</h1>
+    <h1 class="heading">
+        <img class="logo" src="assets/images/hero-image-1/">How irish are you?
+    </h1>
 
     <div class="hero-image"></div>
 
@@ -21,31 +23,28 @@
         <div id="questions-area"></div>
 
         <div id="answers-choice" class="btn-grid">
-            <button class="btn">
+            <button id="a" class="btn btn--big">
                 <i class="fa-solid fa-a">A</i>
             </button>
-            <button class="btn">
+            <button id="b" class="btn btn--big">
                 <i class="fa-solid fa-b">B</i>
             </button>
-            <button class="btn">
+            <button id="c" class="btn btn--big">
                 <i class="fa-solid fa-c">C</i>
-            </button>
-            <button class="btn">
-                <i class="fa-solid fa-d">D</i>
             </button>
         </div>
 
         <!-- Questions Navigation -->
         <div class="questions-navigation">
-            <button id="start-questions-btn" class="start-btn btn hide">Start</button>
-            <button id="next-question-btn" class="next-btn btn hide">Next</button>
-            <button id="restart-questions-btn" class="restart-btn btn hide">Restart</button>
+            <button id="start-questions-btn" class="btn btn--big">Start</button>
+            <button id="next-question-btn" class="btn btn--big hide">Next</button>
+            <button id="restart-questions-btn" class="btn btn--big hide">Restart</button>
         </div>
     </div>
 
     <div class="score-area">
-        <p class="score">Correct Answers <span id="correct">0</span></p>
-        <p class="score">Incorrect Answers <span id="incorrect">0</span></p>
+        <p class="correct">Correct Answers <span id="correct">0</span></p>
+        <p class="incorrect">Incorrect Answers <span id="incorrect">0</span></p>
     </div>
 
     <script src="assets/js/script.js"></script>

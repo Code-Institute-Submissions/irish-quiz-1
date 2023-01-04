@@ -1,0 +1,112 @@
+body {
+    background-color: green;
+    font-family: "Raleway", sans-serif;
+}
+
+/* Heading */
+
+.heading {
+    text-align: center;
+    font-size: 2.5 rem;
+    color: orangered;
+}
+
+.game-area {
+    background-color: azure;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#answers-choice {
+    width: 60%;
+    font-size: 2rem;
+    margin: auto;
+    text-align: center;
+}
+
+.score-area {
+    margin: auto;
+    width: 60%;
+    font-size: 1rem;
+}
+
+#correct {
+    color: orangered;
+    font-weight: bold;
+}
+
+#incorrect {
+    color: orangered;
+    font-weight: bold;
+}
+
+.questions-navigation {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.btn {
+    background-color: azure;
+    width: 200px;
+    height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 0.5rem;
+}
+
+.btn--big {
+    border-color: green;
+    color: orangered;
+    border-radius: 0.5rem;
+    padding: 10px;
+}
+
+#a:active,
+#a:hover {
+    background-color: green; 
+}
+
+#b:active,
+#b:hover {
+    background-color: green;
+}
+
+#c:active,
+#c:hover {
+    background-color: green;
+}
+
+#start-questions-btn:active,
+#start-questions-btn:hover {
+    background-color: green;
+}
+
+#next-question-btn:active,
+#next-question-btn:hover {
+    background-color: green;
+}
+
+#restart-questions-btn:active,
+#restart-questions-btn:hover {
+    background-color: green;
+}
+
+#answers-choice {
+    width:100%;
+    text-align: center;
+    display: inline-block;
+    padding: 50px;
+}
+
+.correct {
+    color: orangered;
+}
+
+.incorrect {
+    color: orangered;
+}
